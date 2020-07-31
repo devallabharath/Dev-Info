@@ -1,0 +1,26 @@
+/* m.css for mobi.html */
+
+* { margin:0; padding:0; }
+body { font-family: Segoe UI, Ubuntu,-apple-system,BlinkMacSystemFont,Roboto;
+	    font-size:1rem; }
+/* Header */
+.head { padding: 7px 4vw; background: rgba(0,0,0,0.8); display: flex;
+	     justify-content: space-between; border-radius: 7px 7px 0 0; }
+.head img { vertical-align: middle; }
+.head div { height: 100%; margin: auto 0; cursor: default; }
+.head div ul li { display: inline; padding: 0 5px; }
+.head div ul li a { color: white; }
+
+#nav ul li a { text-decoration:none; }
+#nav ul li a:hover { border-bottom: 2px solid white; }
+
+/* Rating */
+#rating { background: rgba(0, 0, 0, 0.8); color:#fff; width:300px; padding: 5px 0;
+		margin: 0 auto; text-align: center; border-radius: 5px; }
+.rating-input { width:80%; margin: 10px auto; border:none;
+			 border-bottom: 1px solid white; }
+.rating-input input  { width:90%; background:transparent; color:#fff;
+				    border:none; outline:none; }
+.btn-rating { width:60%; padding: 3px 0; margin-bottom:5px; font-weight: 20px;
+		      background:rgba(f,f,f,0.1); border:none; outline:none;
+		      cursor:pointer; }
